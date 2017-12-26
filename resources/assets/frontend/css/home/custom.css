@@ -1,0 +1,65 @@
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+nav{
+    background-color: transparent!important;
+    z-index: 200;
+    padding-top: 10px;
+}
+
+nav a{
+    color: white!important;
+}
+
+.nav-item{
+    font-size: 12px;
+    letter-spacing: .08em;
+    color: #fdfdfd;
+    text-transform: uppercase;
+    margin-right: 40px;
+}
+
+.navbar-nav{
+    margin-top: 10px;
+}
+
+.nav-item.active{
+    font-weight: bold;
+}
+
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 28px;
+    /* letter-spacing: .08em; */
+    text-transform: lowercase;
+    margin-left: 20px;
+}
+
+.slide{
+    top: -68px;
+    left: 0;
+}
+
+.slide .slick-list img{
+    border-right: 1px solid #cdcdcd;
+    height: 100vh;
+    width: auto!important;
+}
+
+.slide .arrow{
+    z-index: 200;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    background-color:rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
+
+.slide .arrow.left{
+    left: 30px;
+}
+
+.slide .arrow.right{
+    right: 30px;
+}

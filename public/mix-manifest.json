@@ -1,0 +1,20 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/frontend/css/global/vendor.css": "/frontend/css/global/vendor.css",
+    "/frontend/js/global/vendor.js": "/frontend/js/global/vendor.js",
+    "/frontend/css/home/vendor.css": "/frontend/css/home/vendor.css",
+    "/frontend/js/home/vendor.js": "/frontend/js/home/vendor.js",
+    "/frontend/css/home/custom.css": "/frontend/css/home/custom.css",
+    "/frontend/css/home/responsive.css": "/frontend/css/home/responsive.css",
+    "/frontend/js/home/custom.js": "/frontend/js/home/custom.js",
+    "/frontend/css/home/default-skin.svg": "/frontend/css/home/default-skin.svg",
+    "/frontend/css/home/default-skin.png": "/frontend/css/home/default-skin.png",
+    "/frontend/css/home/preloader.gif": "/frontend/css/home/preloader.gif",
+    "/frontend/css/home/ajax-loader.gif": "/frontend/css/home/ajax-loader.gif",
+    "/frontend/css/home/fonts/slick.eot": "/frontend/css/home/fonts/slick.eot",
+    "/frontend/css/home/fonts/slick.svg": "/frontend/css/home/fonts/slick.svg",
+    "/frontend/css/home/fonts/slick.ttf": "/frontend/css/home/fonts/slick.ttf",
+    "/frontend/css/home/fonts/slick.woff": "/frontend/css/home/fonts/slick.woff",
+    "/frontend/css/home/fonts/ajax-loader.gif": "/frontend/css/home/fonts/ajax-loader.gif"
+}
