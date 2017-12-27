@@ -75,17 +75,21 @@
         </nav>
 
         <div class="slide">
-            <img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (1).jpg') }}" alt="">
-            <img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (2).jpg') }}" alt="">
-            <img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (3).jpg') }}" alt="">
-            <img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (4).jpg') }}" alt="">
-            <img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (5).jpg') }}" alt="">
-            <img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (6).jpg') }}" alt="">
-            <img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (7).jpg') }}" alt="">
-            <img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (8).jpg') }}" alt="">
-            <img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (9).jpg') }}" alt="">
-            <img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (10).jpg') }}" alt="">
+            <div>
+                <h1 class="caption">Project</h1>
+                <img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (1).jpg') }}" alt="">
+            </div>
+            <div><img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (2).jpg') }}" alt=""></div>
+            <div><img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (3).jpg') }}" alt=""></div>
+            <div><img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (4).jpg') }}" alt=""></div>
+            <div><img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (5).jpg') }}" alt=""></div>
+            <div><img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (6).jpg') }}" alt=""></div>
+            <div><img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (7).jpg') }}" alt=""></div>
+            <div><img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (8).jpg') }}" alt=""></div>
+            <div><img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (9).jpg') }}" alt=""></div>
+            <div><img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (10).jpg') }}" alt=""></div>
         </div>
+
 
         @section('scripts')
             <script type='text/javascript' src="{{ asset('frontend/js/home/vendor.js') }}"></script>

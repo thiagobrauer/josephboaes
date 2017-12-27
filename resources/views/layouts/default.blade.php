@@ -8,7 +8,7 @@
         <title>@yield('page') | Joseph Boaes</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Roboto:400,600,700,800" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Roboto:400,600,700,800" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
         <link href="{{ asset('frontend/css/global/vendor.css') }}" rel="stylesheet" type="text/css">
