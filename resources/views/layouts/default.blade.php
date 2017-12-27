@@ -17,7 +17,7 @@
         @yield('stylesheets')
         
     </head>
-    <body>
+    <body style="max-height:  100vh;" >
 
         @yield('body')
             
