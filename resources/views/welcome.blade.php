@@ -22,74 +22,78 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Portfolio<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Galleries+</a>
-                        <div class="dropdown-menu" style="">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre<span class="sr-only"></span></a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About+</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato<span class="sr-only"></span></a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Pages+</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
+
+                    <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Blog+</a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="#">Action</a>
                             <a class="dropdown-item" href="#">Another action</a>
                             <a class="dropdown-item" href="#">Something else here</a>
                         </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Contact</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Purchase</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </nav>
 
         <div class="slide">
-            <div>
+            <div class="img-wrapper">
+                <img width="770" height="1200" style="width: 100%; display: inline-block;" class="img img-responsive" src="{{ asset('frontend/img/home/home-1.jpg') }}" alt="">
+                <div class="caption-wrapper">
+                    <a href="#">caption</a>
+                </div> 
+            </div>
+            <div class="img-wrapper">
+                <img width="770" height="1200" style="width: 100%; display: inline-block;" class="img img-responsive" src="{{ asset('frontend/img/home/home-2.jpg') }}" alt="">
+                <div class="caption-wrapper">
+                    <a href="#">caption</a>
+                </div> 
+            </div>
+            <div class="img-wrapper">
+                <img width="770" height="1200" style="width: 100%; display: inline-block;" class="img img-responsive" src="{{ asset('frontend/img/home/home-3.jpg') }}" alt="">
+                <div class="caption-wrapper">
+                    <a href="#">caption</a>
+                </div> 
+            </div>
+            <div class="img-wrapper">
+                <img width="770" height="1200" style="width: 100%; display: inline-block;" class="img img-responsive" src="{{ asset('frontend/img/home/home-4.jpg') }}" alt="">
+                <div class="caption-wrapper">
+                    <a href="#">caption</a>
+                </div> 
+            </div>
+            <div class="img-wrapper">
+                <img width="770" height="1200" style="width: 100%; display: inline-block;" class="img img-responsive" src="{{ asset('frontend/img/home/home-5.jpg') }}" alt="">
+                <div class="caption-wrapper">
+                    <a href="#">caption</a>
+                </div> 
+            </div>
+            <div class="img-wrapper">
+                <img width="770" height="1200" style="width: 100%; display: inline-block;" class="img img-responsive" src="{{ asset('frontend/img/home/home-6.jpg') }}" alt="">
+                <div class="caption-wrapper">
+                    <a href="#">caption</a>
+                </div> 
+            </div>
+            <div class="img-wrapper">
+                <img width="770" height="1200" style="width: 100%; display: inline-block;" class="img img-responsive" src="{{ asset('frontend/img/home/home-7.jpg') }}" alt="">
+                <div class="caption-wrapper">
+                    <a href="#">caption</a>
+                </div> 
+            </div>
+
+            
+
+            <!-- <div>
                 <h1 class="caption">Project</h1>
                 <img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (1).jpg') }}" alt="">
-            </div>
-            <div><img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (2).jpg') }}" alt=""></div>
-            <div><img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (3).jpg') }}" alt=""></div>
-            <div><img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (4).jpg') }}" alt=""></div>
-            <div><img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (5).jpg') }}" alt=""></div>
-            <div><img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (6).jpg') }}" alt=""></div>
-            <div><img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (7).jpg') }}" alt=""></div>
-            <div><img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (8).jpg') }}" alt=""></div>
-            <div><img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (9).jpg') }}" alt=""></div>
-            <div><img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (10).jpg') }}" alt=""></div>
+            </div> -->
+            <!-- <div><img style="" class="img img-responsive" src="{{ asset('frontend/img/drive (2).jpg') }}" alt=""></div> -->
+            
         </div>
-
 
         @section('scripts')
             <script type='text/javascript' src="{{ asset('frontend/js/home/vendor.js') }}"></script>

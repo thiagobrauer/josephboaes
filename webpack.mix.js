@@ -36,6 +36,8 @@ mix.styles([
     'resources/assets/vendor/slick-carousel/slick/slick-theme.css',
     'resources/assets/vendor/photoswipe/dist/photoswipe.css', 
     'resources/assets/vendor/photoswipe/dist/default-skin/default-skin.css', 
+    'resources/assets/vendor/owl.carousel/dist/assets/owl.carousel.min.css', 
+    'resources/assets/vendor/owl.carousel/dist/assets/owl.theme.default.min.css', 
     
 ], 'public/frontend/css/home/vendor.css');
 
@@ -47,6 +49,8 @@ mix.scripts([
     'resources/assets/vendor/tingle/dist/tingle.min.js',
     'resources/assets/vendor/jquery-ui/jquery-ui.min.js',
     'resources/assets/vendor/HoldOn.js/src/js/HoldOn.min.js',
+    'resources/assets/vendor/owl.carousel/dist/owl.carousel.js', 
+    'resources/assets/vendor/jquery-mousewheel/jquery.mousewheel.min.js', 
     
 ], 'public/frontend/js/home/vendor.js');
 
