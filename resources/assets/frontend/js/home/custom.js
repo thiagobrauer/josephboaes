@@ -1,16 +1,18 @@
 
 $(document).ready(function(){
 
+    $( ".welcome-screen" ).click(function() {
+        $('.page').fadeIn(500);
+        $( ".welcome-screen" ).fadeOut(500);
+    });
+
     $('ul.navbar-nav li.dropdown').hover(function() {
         $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(200);
     }, function() {
         $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(200);
     });
 
-
-
     var slide = $('.slide');
-
     slide.slick({
         centerMode: true,   
         variableWidth: true,
